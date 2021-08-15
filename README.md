@@ -1,6 +1,6 @@
 # My Data Driven CV
 
-[My CV](https://github.com/himal2007/xx)
+[My CV](https://github.com/himal2007/my_CV/blob/main/CV_refined.pdf)
 
 
 ## What
