@@ -3,8 +3,8 @@ name: Himal
 surname: Shrestha
 position: "PhD Student"
 address: "La Trobe University"
-www: "xx.github.io"
-email: "shta.himal2007@gmail.com"
+www: "himal2007.netlify.app"
+email: "stha.himal2007@gmail.com"
 github: himal2007
 linkedin: himal-shrestha
 orcid: 0000-0002-4470-4830
