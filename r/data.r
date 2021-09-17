@@ -1,7 +1,7 @@
 edu <- tribble(
     ~degree, ~year, ~inst, ~where, ~detail,
     "La Trobe University", "2019-2022(expected)", "PhD in Bioinformatics", "Melbourne, Australia", "Project: Geospatial modelling of onchocerciasis transmission.",
-    "La Trobe University", "2017-2019", "Master of Biotechnology and Bioinformatics", "Melbourne, Australia", "Thesis: Analysis of ivermectin action on adult female Onchocerca volvulus from embryogram data: evidence for reproductive periodicity and the basis for the embryostatic phenotype.",
+    "La Trobe University", "2017-2019", "Master of Biotechnology and Bioinformatics", "Melbourne, Australia", "Thesis: Analysis of ivermectin action on adult female \\textit{Onchocerca volvulus} from embryogram data: evidence for reproductive periodicity and the basis for the embryostatic phenotype.",
     "Kathmandu University", "2012-2016", "Bachelor of Science in Human Biology", "Dhulikhel, Nepal", "Thesis: Assessment of C-Reactive Protein/Albumin ratio for predicting outcome in critically ill patients with various underlying diseases.",
 )
 

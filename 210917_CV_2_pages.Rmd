@@ -1,0 +1,115 @@
+---
+name: Himal
+surname: Shrestha
+position: "PhD Student"
+address: "La Trobe University"
+www: "himal2007.netlify.app"
+email: "H.Shrestha@latrobe.edu.au"
+github: himal2007
+linkedin: himal-shrestha
+orcid: 0000-0002-4470-4830
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 990000
+keep_tex: true
+aboutme: "I am a PhD student in Bioinformatics at La Trobe University studying the transmission of a parasitic disease called River Blindness. I utilize different computational and mathematical approaches to integrate genomic, environmental and epidemiological data to predict, prevent and eliminate infectious and non-infectious diseases."
+docname: CV
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+require(xfun)
+
+packages <- c('vitae'     # The CV's LaTeX Template
+             ,'tibble'    # Data structure for tribbles
+             ,'magrittr'  # The Pipe %>%
+             ,'here'      # Relative File Paths
+             ,'readr'     # Data Loading
+             ,'glue'      # String Manipulation
+             ,'commonmark'
+            )
+
+xfun::pkg_attach2(packages, message = FALSE)
+
+source(file = here("r","data_2_pages.r"))
+
+```
+
+# Education
+
+```{r EDUCATION}
+
+edu %>%
+  detailed_entries(
+    with = inst,
+    what = degree,
+    # why = detail,
+    when = year,
+    where = where,
+    .protect = FALSE
+  )
+
+```
+
+# Skills
+```{r SKILLS}
+skills %>%
+  detailed_entries(
+    what = area,
+    why = skills,
+    .protect = FALSE
+  )
+```
+
+# Employment
+```{r TEACHING, eval=TRUE}
+employment %>%
+  detailed_entries(
+    with = Position,
+    what = inst,
+    why = detail,
+    when = year,
+    where = where,
+    .protect = FALSE
+  )
+```
+\pagebreak
+# Publications
+
+```{r PUBLICATIONS-2, eval=TRUE}
+publication %>%
+  detailed_entries(
+    what = type,
+    why = name,
+    .protect = FALSE
+  )
+```
+
+# Trainings and workshops attended
+```{r TRAININGS, eval = TRUE}
+trainings %>%
+  detailed_entries(
+    what = type,
+    why = training,
+    .protect = FALSE
+  )
+```
+
+# Awards
+```{r AWARDS}
+awards %>%
+  detailed_entries(
+    with = award,
+    what = inst,
+    when = year,
+    where = where,
+    .protect = FALSE
+  )
+```
+
+
+
+
