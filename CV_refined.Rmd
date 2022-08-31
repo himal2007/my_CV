@@ -4,12 +4,13 @@ surname: Shrestha
 position: "PhD Student"
 address: "La Trobe University"
 www: "himal2007.netlify.app"
-email: "stha.himal2007@gmail.com"
+email: "H.Shrestha@latrobe.edu.au"
 github: himal2007
 linkedin: himal-shrestha
 orcid: 0000-0002-4470-4830
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 990000
+keep_tex: true
 aboutme: "I am a PhD student in Bioinformatics at La Trobe University studying the transmission of a parasitic disease called River Blindness. I utilize different computational and mathematical approaches to integrate genomic, environmental and epidemiological data to predict, prevent and eliminate both infectious and non-infectious diseases. I am equally adept at different molecular and laboratory techniques."
 docname: CV
 output: vitae::awesomecv
@@ -28,6 +29,7 @@ packages <- c('vitae'     # The CV's LaTeX Template
              ,'here'      # Relative File Paths
              ,'readr'     # Data Loading
              ,'glue'      # String Manipulation
+             ,'commonmark'
             )
 
 xfun::pkg_attach2(packages, message = FALSE)
@@ -46,7 +48,8 @@ edu %>%
     what = degree,
     why = detail,
     when = year,
-    where = where
+    where = where,
+    .protect = FALSE
   )
 
 ```
@@ -56,7 +59,8 @@ edu %>%
 skills %>%
   detailed_entries(
     what = area,
-    why = skills
+    why = skills,
+    .protect = FALSE
   )
 ```
 
@@ -68,7 +72,8 @@ research %>%
     what = inst,
     why = detail,
     when = year,
-    where = where
+    where = where,
+    .protect = FALSE
   )
 ```
 
@@ -80,7 +85,8 @@ teaching %>%
     what = inst,
     why = detail,
     when = year,
-    where = where
+    where = where,
+    .protect = FALSE
   )
 ```
 
@@ -88,7 +94,8 @@ teaching %>%
 ```{r VOLUNTEERING}
 voluteering %>% detailed_entries(
   what = task,
-  why = details
+  why = details,
+  .protect = FALSE
 )
 ```
 
@@ -99,26 +106,42 @@ awards %>%
     with = award,
     what = inst,
     when = year,
-    where = where
+    where = where,
+    .protect = FALSE
+  )
+```
+
+# Research grants
+```{r GRANTS, eval = TRUE}
+grants %>%
+  detailed_entries(
+    with = grant,
+    what = inst,
+    why = detail,
+    when = year,
+    where = where,
+    .protect = TRUE
   )
 ```
 
 # Trainings and workshops attended
-```{r TRAININGS}
+```{r TRAININGS, eval = TRUE}
 trainings %>%
   detailed_entries(
     what = type,
-    why = training
+    why = training,
+    .protect = FALSE
   )
 ```
 
 # Publications
 
-```{r PUBLICATIONS-2}
-publications %>%
+```{r PUBLICATIONS-2, eval=TRUE}
+publication %>%
   detailed_entries(
     what = type,
-    why = name
+    why = name,
+    .protect = FALSE
   )
 ```
 
