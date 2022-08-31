@@ -76,6 +76,20 @@ employment %>%
     .protect = FALSE
   )
 ```
+
+# Research grants
+```{r GRANTS, eval = TRUE}
+grants %>%
+  detailed_entries(
+    with = grant,
+    what = inst,
+    why = detail,
+    when = year,
+    where = where,
+    .protect = TRUE
+  )
+```
+
 \pagebreak
 # Publications
 
@@ -89,7 +103,7 @@ publication %>%
 ```
 
 # Trainings and workshops attended
-```{r TRAININGS, eval = TRUE}
+```{r TRAININGS, eval = FALSE}
 trainings %>%
   detailed_entries(
     what = type,
@@ -109,6 +123,8 @@ awards %>%
     .protect = FALSE
   )
 ```
+
+
 
 
 

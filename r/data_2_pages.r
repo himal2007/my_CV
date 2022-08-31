@@ -34,8 +34,17 @@ awards <- tribble(
     "Research Poster Excellence Award", "2019", "Master's poster session (La Trobe University)", "Melbourne, Australia"
 )
 
+grants <- tribble(
+    ~grant, ~year, ~inst, ~where, ~detail,
+    "Co-investigator/Sub-awardee", "2021-2022", "UNICEF/UNDP/World Bank/WHO Special Programme for Research and Training in Tropical Diseases (TDR/WHO) (US$108,000)", "", "Population genetic tools for onchocerciasis control programmes to determine transmission zones.",
+    
+)
+
 trainings <- tribble(
     ~type, ~training,
+    "\\textbf{Programming and modelling workshops}","Aug 17-18, 2022: HPC201: Getting started with HPC using PBS Pro (Virtual), Intersect",
+    "\\textbf{Programming and modelling workshops}","Apr 4 2022: 1-Day Introduction to AMD GPUs (AMD Instinct Architecture and ROCm) (Virtual), Pawsey Supercomputing Centre",
+    "\\textbf{Programming and modelling workshops}","Oct 27-28, 2021: \\href{http://slchen-lab-training.s3-website-ap-southeast-1.amazonaws.com/}{AWS GIS workshop for online cloud genomics} (Virtual), Genome Institute of Singapore and Amazon Web Services",
     "\\textbf{Programming and modelling workshops}","Jun 28, Jul 09, 2021: Data-Driven Modelling in Mathematical Biology (Virtual), MATRIX and AMSI",
     "\\textbf{Programming and modelling workshops}","Jun 28 - Jul 02, 2021: Helminth Bioinformatics - Asia (Virtual), Welcome Connecting Science",
     "\\textbf{Programming and modelling workshops}","Nov 02-06, 2020: Hierarchical Modelling of Species Communities with the R-package Hmsc (virtual), University of Helsinki, Finland",
@@ -73,9 +82,13 @@ voluteering <- tribble(
 
 publication <- tribble(
     ~type, ~name,
+    "\\textbf{Journal publications (peer reviewed)}","\\textbf{Shrestha H}, McCulloch K, Hedtke SM, Grant WN. Geospatial modeling of pre-intervention nodule prevalence of Onchocerca volvulus in Ethiopia as an aid to onchocerciasis elimination. Cotton J, editor. PLoS Negl Trop Dis. 2022 Jul 18;16(7):e0010620.",
+    "\\textbf{Journal publications (peer reviewed)}","Gyawali P, Tamrakar D, Shrestha A, \\textbf{Shrestha H}, Karmacharya S, Bhattarai S, et al. Consumer acceptance and preference for brown rice—A mixed‐method qualitative study from Nepal. Food Sci Nutr. 2022 Mar 4;fsn3.2803.",
+    "\\textbf{Journal publications (peer reviewed)}","Gyawali P, \\textbf{Shrestha H}, Pant V, Risal P, Gautam S. C-reactive Protein to Albumin Ratio among Patients Admitted to Intensive Care Unit of a Tertiary Care Hospital: A Descriptive Crosssectional Study. J Nepal Med Assoc. 2021 Dec 11;59(244):1247-51.",
     "\\textbf{Journal publications (peer reviewed)}","R Shrestha, DP Subedi, S Adhikari, A Maharjan, \\textbf{H Shrestha}, GR Pandey (2017). Experimental Study of Atmospheric Pressure Argon Plasma Jet-Induced Strand Breakage in Large DNA Molecules, Plasma Medicine, vol. 7, no. 1. doi:10.1615/PlasmaMed.2017019986",
     "\\textbf{Journal publications (peer reviewed)}", "J Shrestha Manandhar, R Shrestha, N Basnet, P Silwal, \\textbf{H Shrestha}, A Risal, D Kunwar (2017). Study of Adherence Pattern of Antidepressants in Patients with Depression, Kathmandu University Medical Journal (KUMJ), vol. 15, no. 57, pp: 3-9. PMID: 29446354",
     "\\textbf{Journal publications (peer reviewed)}", "JTM Shrestha, \\textbf{H Shrestha}, M Prajapati, A Karkee, A Maharjan (2017). Adverse Effcts of Oral Hypoglycemic Agents and Adherence to them among Patients with Type 2 Diabetes Mellitus in Nepal, Journal of Lumbini Medical College, vol. 5, no. 1, pp. 34-40. doi:10.22502/jlmc.v5i1.126",
+    "\\textbf{Conference abstracts}","\\textbf{H Shrestha}, SM Hedtke, K McCulloch, WN Grant (2021). Landscape genetics to determine factors for ongoing transmission of onchocerciasis in the transition region of Ghana. Oral presentation (15 mins) at COMBINE Student Symposium (Virtual), Nov 22, 2021.",
     "\\textbf{Conference abstracts}", "\\textbf{H Shrestha}, K McCulloch, SM Hedtke, SM Feleke, WN Grant (2021). Geospatial analysis of pre-intervention prevalence of onchocerciasis in Ethiopia. Australian Society of Parasitology Online Conference (Virtual). Jun 23-25, 2021.",
     "\\textbf{Conference abstracts}","\\textbf{H Shrestha}, K McCulloch, SM Hedtke, WN Grant (2021). Geospatial mapping of onchocerciasis prevalence in Ethiopia. Spatial and Temporal Statistics Symposium (STSS), University of Wollongong (Virtual), February 17-19, 2021.",
     "\\textbf{Conference abstracts}","\\textbf{H Shrestha}, SM Hedtke, K McCulloch, WN Grant (2020). Identifying spatial patterns of onchocerciasis transmission using landscape analysis. Science bite talk at PAM Research Symposium 2020 held online on December 10 and 11, 2020.",
@@ -84,8 +97,7 @@ publication <- tribble(
     "\\textbf{Conference abstracts}","W Grant, S Hedtke, S Wanji, \\textbf{H Shrestha} (2019). Ivermectin and fertility in nematodes. The second Australian \\textit{C. elegans} Symposium (ACES, 2019), Queensland Brain Institue, The University of Queensland, Brisbane, Queensland, October 23-25, 2019.",
     "\\textbf{Conference abstracts}","\\textbf{H Shrestha}, SM Hedtke, K McCulloch, S Wanji, WN Grant (2019). Effect of ivermectin treatment on adult female Onchocerca volvulus from embryogram data: evidence for periodicity of reproduction and the basis for the embryostatic phenotype. Oral presentation (15 mins) at annual meeting of Australian Society for Parasitology, Adelaide Convention Centre, South Australia, July 8-11, 2019.",
     "\\textbf{Conference abstracts}","S Gautam, P Gyawali, J Singh, \\textbf{H Shrestha} (2016). Assessment of C-Reactive Protein/Albumin Ratio in Critically Ill Patients with Various Underlying Diseases. Poster presentation at Second Annual Scientific Meeting (NACC-CON 2016) at Dhulikhel Hospital Kathamandu University Hospital, Nepal, August 20-21, 2016.",
-    "\\textbf{Conference abstracts}","A Maharjan, \\textbf{H Shrestha}, S Shrestha (2016). Prevalence of Rheumatic Symptoms in Urban Population of Kathmandu Valley. Poster presentation at 7th National Conference on Science and Technology, Kathmandu, Nepal, March 29-21, 2016.",
-    "\\textbf{Conference abstracts}","\\textbf{H Shrestha}, A Maharjan, S Shrestha (2016). Attitudes Towards Menstruation of Pre-menstruating Adolescent School Girls. Poster presentation at 7th National Conference on Science and Technology, Kathmandu, Nepal, March 29-21, 2016."
+    "\\textbf{Conference abstracts}","A Maharjan, \\textbf{H Shrestha}, S Shrestha (2016). Prevalence of Rheumatic Symptoms in Urban Population of Kathmandu Valley. Poster presentation at 7th National Conference on Science and Technology, Kathmandu, Nepal, March 29-21, 2016."
     
     
     

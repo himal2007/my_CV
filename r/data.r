@@ -19,7 +19,7 @@ research <- tribble(
 
 grants <- tribble(
     ~grant, ~year, ~inst, ~where, ~detail,
-    "Co-investigator/Sub-awardee", "2021-2022", "La Trobe University", "Melbourne, Australia", "UNICEF/UNDP/World Bank/WHO Special Programme for Research and Training in Tropical Diseases (TDR/WHO) (US$108,000) 'Population genetic tools for onchocerciasis control programmes to determine transmission zones'.",
+    "Co-investigator/Sub-awardee", "2021-2022", "UNICEF/UNDP/World Bank/WHO Special Programme for Research and Training in Tropical Diseases (TDR/WHO) (US$108,000)", "", "Population genetic tools for onchocerciasis control programmes to determine transmission zones.",
     
 )
 

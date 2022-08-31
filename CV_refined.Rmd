@@ -134,6 +134,7 @@ trainings %>%
   )
 ```
 
+\pagebreak
 # Publications
 
 ```{r PUBLICATIONS-2, eval=TRUE}
