@@ -120,7 +120,7 @@ awards %>%
     what = inst,
     when = year,
     where = where,
-    .protect = FALSE
+    .protect = TRUE
   )
 ```
 

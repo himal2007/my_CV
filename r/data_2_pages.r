@@ -27,11 +27,13 @@ teaching <- tribble(
 
 awards <- tribble(
     ~award, ~year, ~inst, ~where,
+    "ASTMH annual meeting travel award", "2022", "American Society of Tropical Medicine & Hygiene", "Seattle, Washington, United States",
+    "SABE HDR student research support award", "2022", "La Trobe University", "Melbourne, Australia",
+    "The Jenny Graves Prize for best student short presentation", "2022", "Genetics Society of Australasia", "ComBio22, Melbourne, Australia",
     "LTU Postgraduate Research Scholarship (LTUPRS)", "2019-Ongoing", "La Trobe University", "Melbourne, Australia",
     "Australian Society of Parasitologists (ASP) student travel grant", "2019", "Australian Society of Parasitology", "Adelaide, Australia",
     "Pro Vice Chancellor's Commendation 2018", "2019-Ongoing", "La Trobe University", "Melbourne, Australia",
     "Diversity Scholarship: Technical Deep Learning Workshop", "2019", "Braneshop", "Melbourne, Australia",
-    "Research Poster Excellence Award", "2019", "Master's poster session (La Trobe University)", "Melbourne, Australia"
 )
 
 grants <- tribble(
@@ -88,6 +90,8 @@ publication <- tribble(
     "\\textbf{Journal publications (peer reviewed)}","R Shrestha, DP Subedi, S Adhikari, A Maharjan, \\textbf{H Shrestha}, GR Pandey (2017). Experimental Study of Atmospheric Pressure Argon Plasma Jet-Induced Strand Breakage in Large DNA Molecules, Plasma Medicine, vol. 7, no. 1. doi:10.1615/PlasmaMed.2017019986",
     "\\textbf{Journal publications (peer reviewed)}", "J Shrestha Manandhar, R Shrestha, N Basnet, P Silwal, \\textbf{H Shrestha}, A Risal, D Kunwar (2017). Study of Adherence Pattern of Antidepressants in Patients with Depression, Kathmandu University Medical Journal (KUMJ), vol. 15, no. 57, pp: 3-9. PMID: 29446354",
     "\\textbf{Journal publications (peer reviewed)}", "JTM Shrestha, \\textbf{H Shrestha}, M Prajapati, A Karkee, A Maharjan (2017). Adverse Effcts of Oral Hypoglycemic Agents and Adherence to them among Patients with Type 2 Diabetes Mellitus in Nepal, Journal of Lumbini Medical College, vol. 5, no. 1, pp. 34-40. doi:10.22502/jlmc.v5i1.126",
+    "\\textbf{Conference abstracts}","\\textbf{H Shrestha}, K McCulloch, SM Hedtke, WN Grant (2021). Geospatial modeling of the baseline \\textit{Onchocerca volvulus} nodule prevalence in Ethiopia as an aid to elimination. Poster presentation at ASTMH 2022 Annual Meeting,  Seattle Convention Center, United States, 30 Oct - 3 Nov, 2022.",
+    "\\textbf{Conference abstracts}","\\textbf{H Shrestha}, SM Hedtke, RH Chisholm, WN Grant (2021). Landscape genetics and persistence of Onchocerciasis transmission in Ghana. Lightning talk at ComBio22, Melbourne Convention and Exhibition Centre (MCEC),27-30 Sep, 2022.",
     "\\textbf{Conference abstracts}","\\textbf{H Shrestha}, SM Hedtke, K McCulloch, WN Grant (2021). Landscape genetics to determine factors for ongoing transmission of onchocerciasis in the transition region of Ghana. Oral presentation (15 mins) at COMBINE Student Symposium (Virtual), Nov 22, 2021.",
     "\\textbf{Conference abstracts}", "\\textbf{H Shrestha}, K McCulloch, SM Hedtke, SM Feleke, WN Grant (2021). Geospatial analysis of pre-intervention prevalence of onchocerciasis in Ethiopia. Australian Society of Parasitology Online Conference (Virtual). Jun 23-25, 2021.",
     "\\textbf{Conference abstracts}","\\textbf{H Shrestha}, K McCulloch, SM Hedtke, WN Grant (2021). Geospatial mapping of onchocerciasis prevalence in Ethiopia. Spatial and Temporal Statistics Symposium (STSS), University of Wollongong (Virtual), February 17-19, 2021.",
@@ -96,9 +100,6 @@ publication <- tribble(
     "\\textbf{Conference abstracts}","\\textbf{H Shrestha} (2019). Elucidating ivermectin's action on reproduction of adult female Onchocerca volvulus from embryogram data: the basis for the embryostatic phenotype. PRISM2 Annual Conference, Woodward Conference Centre, Carlton, Victoria, November 12-13, 2019.",
     "\\textbf{Conference abstracts}","W Grant, S Hedtke, S Wanji, \\textbf{H Shrestha} (2019). Ivermectin and fertility in nematodes. The second Australian \\textit{C. elegans} Symposium (ACES, 2019), Queensland Brain Institue, The University of Queensland, Brisbane, Queensland, October 23-25, 2019.",
     "\\textbf{Conference abstracts}","\\textbf{H Shrestha}, SM Hedtke, K McCulloch, S Wanji, WN Grant (2019). Effect of ivermectin treatment on adult female Onchocerca volvulus from embryogram data: evidence for periodicity of reproduction and the basis for the embryostatic phenotype. Oral presentation (15 mins) at annual meeting of Australian Society for Parasitology, Adelaide Convention Centre, South Australia, July 8-11, 2019.",
-    "\\textbf{Conference abstracts}","S Gautam, P Gyawali, J Singh, \\textbf{H Shrestha} (2016). Assessment of C-Reactive Protein/Albumin Ratio in Critically Ill Patients with Various Underlying Diseases. Poster presentation at Second Annual Scientific Meeting (NACC-CON 2016) at Dhulikhel Hospital Kathamandu University Hospital, Nepal, August 20-21, 2016.",
-    "\\textbf{Conference abstracts}","A Maharjan, \\textbf{H Shrestha}, S Shrestha (2016). Prevalence of Rheumatic Symptoms in Urban Population of Kathmandu Valley. Poster presentation at 7th National Conference on Science and Technology, Kathmandu, Nepal, March 29-21, 2016."
-    
     
     
 )

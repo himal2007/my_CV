@@ -107,7 +107,7 @@ awards %>%
     what = inst,
     when = year,
     where = where,
-    .protect = FALSE
+    .protect = TRUE
   )
 ```
 
@@ -134,7 +134,6 @@ trainings %>%
   )
 ```
 
-\pagebreak
 # Publications
 
 ```{r PUBLICATIONS-2, eval=TRUE}
