@@ -38,6 +38,7 @@ teaching <- tribble(
 
 awards <- tribble(
     ~award, ~year, ~inst, ~where,
+    "ASTMH Young Investigator Award (First-tier Mention)", "2022", "American Society of Tropical Medicine & Hygiene", "Seattle, Washington, United States",
     "ASTMH annual meeting travel award", "2022", "American Society of Tropical Medicine & Hygiene", "Seattle, Washington, United States",
     "SABE HDR student research support award", "2022", "La Trobe University", "Melbourne, Australia",
     "The Jenny Graves Prize for best student short presentation", "2022", "Genetics Society of Australasia", "ComBio22, Melbourne, Australia",
@@ -98,7 +99,8 @@ skills <- tribble(
 
 voluteering <- tribble(
     ~task, ~details,
-    "Executive committee member", "Jan, 2020 - Ongoing: Australian Computational Biology and Bioinformatics Student Society (COMBINE-AU)",
+    "Treasurer", "Jan, 2022- Ongoing: Australian Computational Biology and Bioinformatics Student Society (COMBINE-AU)",
+    "Executive committee member", "Jan, 2020- Dec, 2021: Australian Computational Biology and Bioinformatics Student Society (COMBINE-AU)",
     "Executive committee member", "Jan-Dec, 2020: Physiology, Anatomy and Microbiology-High Degree Research (PAM-HDR) Student Society",
     "Executive committee member", "2013-2014: Kathmandu University Youth Red Cross Circle (KUYRCC)",
     "Volunteer", "Feb, 2018:International Student Host at International Student Services, La Trobe University",
