@@ -11,7 +11,7 @@ orcid: 0000-0002-4470-4830
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 990000
 keep_tex: true
-aboutme: "I am a PhD student in Bioinformatics at La Trobe University studying the transmission of a parasitic disease called River Blindness. I utilize different computational and mathematical approaches to integrate genomic, environmental and epidemiological data to predict, prevent and eliminate both infectious and non-infectious diseases. I am equally adept at different molecular and laboratory techniques."
+aboutme: "As a PhD graduate in Bioinformatics with expertise in computational and mathematical modelling, I am passionate about using data to predict, prevent, and eliminate diseases. My research at La Trobe University involved studying the transmission of parasitic disease, 'River Blindness', by integrating genomic, environmental, and epidemiological data with a variety of modelling and analytical approaches. I am now seeking new opportunities that will enable me to utilise and expand my current skill sets."
 docname: CV
 output: vitae::awesomecv
 ---
@@ -64,9 +64,9 @@ skills %>%
   )
 ```
 
-# Research experience
-```{r RESEARCH}
-research %>%
+# Employment
+```{r EMPLOYMENT, eval = TRUE}
+employment %>%
   detailed_entries(
     with = Position,
     what = inst,
@@ -76,29 +76,6 @@ research %>%
     .protect = FALSE
   )
 ```
-
-# Teaching experience
-```{r TEACHING}
-teaching %>%
-  detailed_entries(
-    with = Position,
-    what = inst,
-    why = detail,
-    when = year,
-    where = where,
-    .protect = FALSE
-  )
-```
-
-# Volunteering experience
-```{r VOLUNTEERING}
-voluteering %>% detailed_entries(
-  what = task,
-  why = details,
-  .protect = FALSE
-)
-```
-
 # Awards
 ```{r AWARDS}
 awards %>%
@@ -123,17 +100,7 @@ grants %>%
     .protect = TRUE
   )
 ```
-
-# Trainings and workshops attended
-```{r TRAININGS, eval = TRUE}
-trainings %>%
-  detailed_entries(
-    what = type,
-    why = training,
-    .protect = FALSE
-  )
-```
-
+\pagebreak
 # Publications
 
 ```{r PUBLICATIONS-2, eval=TRUE}
@@ -145,3 +112,50 @@ publication %>%
   )
 ```
 
+
+```{r RESEARCH, eval = FALSE}
+# Research experience
+# Kept for future purposes - now replaced by Employment
+research %>%
+  detailed_entries(
+    with = Position,
+    what = inst,
+    why = detail,
+    when = year,
+    where = where,
+    .protect = FALSE
+  )
+```
+
+```{r TEACHING, eval = FALSE}
+# Teaching experience
+# Kept for future purposes - now replaced by Employment
+teaching %>%
+  detailed_entries(
+    with = Position,
+    what = inst,
+    why = detail,
+    when = year,
+    where = where,
+    .protect = FALSE
+  )
+```
+
+# Volunteering experience
+```{r VOLUNTEERING}
+voluteering %>% detailed_entries(
+  what = task,
+  why = details,
+  .protect = FALSE
+)
+```
+
+# Trainings and workshops attended
+```{r TRAININGS, eval = TRUE}
+trainings %>%
+  detailed_entries(
+    what = type,
+    why = training,
+    .protect = FALSE
+  )
+```
