@@ -6,3 +6,9 @@
 .idea
 
 .DS_Store
+*.log
+*.Rcheck    
+*.tex
+*.aux
+*tex.gz
+*.out
