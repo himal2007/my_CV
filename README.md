@@ -4,5 +4,12 @@
 
 
 ## What
+
 I created this data driven CV using [`vitae`](https://github.com/mitchelloharawild/vitae) package and [Bryan Jenk's repo](https://github.com/tallguyjenks/CV/) in **`R`**.
+
+## Generate PDF from your latex CV
+
+```sh
+xelatex 20250815_CV_CPG_1page.tex
+```
 
